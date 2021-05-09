@@ -78,7 +78,7 @@ export default class AddTutorial extends Component {
         ) : (
           <div>
             <div className="form-group">
-              <label htmlFor="title">Title</label>
+              <label htmlFor="title">Order</label>
               <input
                 type="text"
                 className="form-control"
@@ -91,7 +91,7 @@ export default class AddTutorial extends Component {
             </div>
 
             <div className="form-group">
-              <label htmlFor="description">Description</label>
+              <label htmlFor="description">Type</label>
               <input
                 type="text"
                 className="form-control"
@@ -104,7 +104,7 @@ export default class AddTutorial extends Component {
             </div>
 
             <button onClick={this.saveTutorial} className="btn btn-success">
-              Submit
+              Submit Order
             </button>
           </div>
         )}

@@ -94,7 +94,7 @@ export default class Tutorial extends Component {
       .then(response => {
         console.log(response.data);
         this.setState({
-          message: "The tutorial was updated successfully!"
+          message: "The Order was updated successfully!"
         });
       })
       .catch(e => {
@@ -186,7 +186,7 @@ export default class Tutorial extends Component {
         ) : (
           <div>
             <br />
-            <p>Please click on a Tutorial...</p>
+            <p>Please click on a Order...</p>
           </div>
         )}
       </div>
